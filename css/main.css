@@ -82,9 +82,10 @@ SECTION
 }
 
 section {
-  position:relative;
+  /*position:relative;*/
   width:68%;
-  margin:0;
+  margin-right:3%;
+  vertical-align: top;
 }
 
 section h1 {
@@ -118,17 +119,30 @@ SIDE BAR
 ****************************/
 
 aside {
+  position:absolute;
   display:inline-block;
-  width:28%;
+  width:25%;
   position:relative;
-  margin:0;
+  margin-left:3%;
 }
 
 #aside-header {
+  position:relative;
+  width:100%;
+}
+
+#aside-header img {
+  position:relative;
+  left:35%;
+  border-radius:100%;
 
 }
 
+#aside-header li {
+  display:inline;
+}
 
+aside
 
 
 
