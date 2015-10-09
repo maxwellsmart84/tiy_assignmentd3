@@ -17,13 +17,17 @@ h1 {
   margin:0;
 }
 
+ul {
+  padding:0;
+}
+
 
 /***************************
 HEADER
 ****************************/
 
 header {
-  /*background-image: image();*/
+  background-image:url(../img/headerimg.jpg);
   position:relative;
   width:100%;
   height:350px;
@@ -33,6 +37,11 @@ header {
 #header-nav {
   width:80%;
   margin:0 auto;
+}
+
+#header-nav >p > img {
+  padding-right: 4px;
+  border-radius: 100%;
 }
 
 #header-nav ul {
@@ -123,26 +132,59 @@ aside {
   display:inline-block;
   width:25%;
   position:relative;
-  margin-left:3%;
+  margin-left:2%;
 }
 
 #aside-header {
   position:relative;
+  margin-left: auto;
+  margin-right: auto;
   width:100%;
+  margin-bottom: 38px;
 }
 
 #aside-header img {
   position:relative;
-  left:35%;
+  left:22%;
   border-radius:100%;
-
+  top: 10px;
+}
+#aside-header ul {
+  position:relative;
+  left:5%;
 }
 
 #aside-header li {
   display:inline;
+  text-align: center;
+  padding:0px 8px;
 }
 
-aside
+#aside-header a {
+  text-decoration: none;
+}
+
+#side-image {
+  width:100%;
+}
+#side-image img {
+  float: left;
+}
+#side-image a {
+  clear:both;
+  float:left;
+}
+
+aside section {
+  width:100%;
+  padding-top: 20px;
+}
+
+aside section h3 {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+
+}
 
 
 
