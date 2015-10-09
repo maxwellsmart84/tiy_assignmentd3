@@ -186,6 +186,76 @@ aside section h3 {
 
 }
 
+#section-footer {
+  position:absolute;
+  width:100%;
+}
+
+#section-footer.comments {
+
+}
+
+/***************************
+IMAGE NAV
+****************************/
+
+ #photo-footer-title {
+  text-align: center;
+
+}
+
+
+#photo-footer-nav {
+  position: absolute;
+  width:100%;
+  height:250px;
+  margin:auto;
+}
+
+#photo-footer-nav .photo-banner1{
+  background-image: url(../img/hirez.jpg);
+  margin-right: -.5%;
+  width:25%;
+  height:100%;
+  position: relative;
+  display: inline-block;
+  /*background-color:white;*/
+  /*filter: opacity(25%);*/
+}
+
+#photo-footer-nav .photo-banner2{
+  background-image: url(../img/headerimg.jpg);
+  margin-right: -.5%;
+  width:25%;
+  height:100%;
+  position: relative;
+  display: inline-block;
+  /*background-color:white;*/
+  /*filter: opacity(25%);*/
+}
+
+#photo-footer-nav .photo-banner3{
+  background-image: url(../img/hirez.jpg);
+  margin-right: -.5%;
+  width:25%;
+  height:100%;
+  position: relative;
+  display: inline-block;
+  /*background-color:white;*/
+  /*filter: opacity(25%);*/
+}
+
+#photo-footer-nav .photo-banner4{
+  background-image: url(../img/headerimg.jpg);
+  margin-right: -.5%;
+  width:25%;
+  height:100%;
+  position: relative;
+  display: inline-block;
+  /*background-color:white;*/
+  /*filter: opacity(25%);*/
+}
+
 
 
 /***************************
