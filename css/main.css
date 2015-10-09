@@ -242,6 +242,27 @@ IMAGE NAV
 
 #photo-banner1 a {
   position:absolute;
+  top:70%;
+  font-family: "Oswald", sans-serif;
+  font-size:1.9em;
+  text-decoration: none;
+}
+
+#photo-banner2 a {
+  font-family: "Oswald", sans-serif;
+  font-size:1.9em;
+  text-decoration: none;
+  position:absolute;
+  top:50%;
+}
+
+#photo-banner3 a {
+  position:absolute;
+  top:50%;
+}
+
+#photo-banner4 a {
+  position:absolute;
   top:50%;
 }
 
