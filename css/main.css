@@ -86,24 +86,32 @@ SECTION
 ****************************/
 
 #container {
-  width:80%;
+  width:75%;
   margin:0 auto;
 }
 
 section {
   /*position:relative;*/
-  width:68%;
-  margin-right:3%;
+  width:55%;
+  margin-right: 15%;
   vertical-align: top;
+
 }
 
 section h1 {
-  font-size:2.5em;
+  font-size:2.9em;
   font-family:"Oswald",sans-serif;
+  font-weight: normal;
+  line-height: 50px;
 }
 
-#subheader > p{
-  margin:0;
+#sub-header span{
+  display:inline-block;
+  padding-bottom:20px;
+}
+#sub-header img {
+  border-radius: 100%
+
 }
 
 section > p {
@@ -318,4 +326,11 @@ FONT/COLOR CLASSES
 .bluetext {
   color:navy;
   font-size: .8em;
+}
+.minibluetext {
+  color:navy;
+  font-size: .6em;
+  padding-left: 5px;
+  margin-right:15px;
+
 }
